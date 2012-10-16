@@ -1,0 +1,43 @@
+/* clearfix code */
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
+#list {
+  width: 910px;
+  background-color: #F8F8F9;
+  padding: 10px;
+  margin: 10px;
+}
+
+h3 {
+  color: blue;
+}
+li {
+  background-color: grey;
+  float: left;
+  height: 180px; 
+  width: 150px;
+  padding: 5px;
+  margin: 0 10px 5px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+

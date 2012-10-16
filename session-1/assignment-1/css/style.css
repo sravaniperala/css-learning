@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  font-family: 'Akronim', cursive;
+}
+
+h1 {
+  font-size: 30px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  /*margin: 10px 500px 10px 500px; */
+}
+#content {
+  background-color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  
+}
+p {
+  padding: 10px;
+  margin: auto;
+}
+#header {
+  margin: auto;
+  min-height: 100px;
+  width: 300px;
+}
+ul {
+  margin: 10px;
+}
+h1 span {
+  color: black;
+}
+p span {
+  color: blue;
+}
+blockquote {
+  color: green;
+  margin: 10px;
+}
+
